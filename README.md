@@ -1,36 +1,129 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Back to Black - Site Oficial (Next.js)
 
-## Getting Started
+<p align="center">
+  <em>The only true dark theme you were looking for</em>
+</p>
 
-First, run the development server:
+Este é o site oficial do tema **Back to Black** para Visual Studio Code, desenvolvido com Next.js 16, React 19 e Tailwind CSS 4.
+
+## 🚀 Sobre o Projeto
+
+Site de marketing e documentação para o tema Back to Black VSCode, apresentando:
+- Características do tema
+- Preview visual
+- Instruções de instalação
+- História do projeto
+- Paleta de cores
+
+## 🛠️ Stack Tecnológica
+
+- **Next.js 16** - Framework React com App Router
+- **React 19.2.0** - Biblioteca UI
+- **TypeScript** - Tipagem estática
+- **Tailwind CSS 4** - Framework CSS utility-first
+- **Lucide React** - Ícones modernos
+- **Next Font** - Otimização de fontes (Playfair Display + Inter)
+
+## 📦 Instalação
 
 ```bash
+# Instalar dependências
+npm install
+
+# Executar em modo desenvolvimento
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+
+# Build para produção
+npm run build
+
+# Iniciar servidor de produção
+npm start
+
+# Executar linter
+npm run lint
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🏗️ Estrutura do Projeto
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+backtoblack-site/
+├── app/
+│   ├── components/         # Componentes React
+│   │   ├── Header.tsx     # Cabeçalho com navegação
+│   │   ├── Hero.tsx       # Seção hero principal
+│   │   ├── Features.tsx   # Grid de características
+│   │   ├── Preview.tsx    # Preview do tema
+│   │   ├── ColorPalette.tsx   # Paleta de cores
+│   │   ├── History.tsx    # História do projeto
+│   │   ├── Installation.tsx   # Instruções de instalação
+│   │   └── Footer.tsx     # Rodapé
+│   ├── error.tsx          # Página de erro
+│   ├── not-found.tsx      # Página 404
+│   ├── layout.tsx         # Layout raiz
+│   ├── page.tsx           # Página inicial
+│   └── globals.css        # Estilos globais
+├── public/                # Assets estáticos
+└── next.config.ts         # Configuração do Next.js
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 🎨 Design System
 
-## Learn More
+### Cores do Tema
 
-To learn more about Next.js, take a look at the following resources:
+```css
+--primary-color: #000000      /* Fundo preto puro */
+--secondary-color: #ffffff    /* Branco */
+--text-primary: #ffffff9f     /* Texto principal (62% opacity) */
+--text-highlight: #ffffff     /* Texto destacado */
+--border-color: #22222270     /* Bordas (44% opacity) */
+--accent-subtle: #ffffff15    /* Guias sutis (8% opacity) */
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Tipografia
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Headings**: Playfair Display (400, 600, 700)
+- **Body**: Inter (300, 400, 500, 600)
 
-## Deploy on Vercel
+### Componentes Customizados
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- `.btn-primary` - Botão principal
+- `.feature-card` - Card de feature com hover
+- `.section-container` - Container de seção (max-width: 1200px)
+- `.text-gradient` - Texto com gradiente
+- `.drop-cap` - Drop cap para primeira letra
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Deploy
+
+O site pode ser facilmente deployado em:
+- **Vercel** (recomendado para Next.js)
+- **Netlify**
+- **AWS Amplify**
+- Qualquer plataforma que suporte Next.js
+
+```bash
+# Build para produção
+npm run build
+
+# O Next.js gera uma pasta .next/ com os arquivos otimizados
+```
+
+## 📱 Responsividade
+
+O site é totalmente responsivo com breakpoints:
+- Mobile: < 768px
+- Tablet: 768px - 1024px
+- Desktop: > 1024px
+
+## 🔗 Links
+
+- [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=backtoblack.backtoblack)
+- [GitHub](https://github.com/GilbertoScript/backtoblack)
+- [Issues](https://github.com/GilbertoScript/backtoblack/issues)
+
+## 📄 Licença
+
+MIT License - © 2025 Back to Black
+
+---
+
+**Made with 🖤 by [GilbertoScript](https://github.com/GilbertoScript)**

@@ -1,0 +1,118 @@
+{
+  "header": {
+    "title": "Back to Black",
+    "features": "Features",
+    "preview": "Preview",
+    "history": "History",
+    "installation": "Installation",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "Back to Black",
+    "subtitle": "The only true dark theme you were looking for",
+    "description": "A minimalist and elegant dark theme for Visual Studio Code, designed for developers seeking maximum contrast and focus during long coding sessions.",
+    "installNow": "Install Now",
+    "viewOnGithub": "View on GitHub",
+    "mitLicense": "MIT License",
+    "madeWithLove": "Made with Love"
+  },
+  "features": {
+    "title": "Features",
+    "subtitle": "Carefully crafted details for the perfect coding experience",
+    "trueBlack": {
+      "title": "True Black",
+      "description": "#000000 background for maximum contrast and battery saving on OLED screens"
+    },
+    "reducedEyeStrain": {
+      "title": "Reduced Eye Strain",
+      "description": "Soft and balanced colors that don't hurt your eyes during long sessions"
+    },
+    "consistentInterface": {
+      "title": "Consistent Interface",
+      "description": "All UI elements harmonized in black and gray tones"
+    },
+    "discreteGuides": {
+      "title": "Discrete Guides",
+      "description": "Subtle vertical lines that don't distract from your code"
+    },
+    "smartLineNumbers": {
+      "title": "Smart Line Numbers",
+      "description": "Active line highlighted for better navigation"
+    },
+    "performance": {
+      "title": "Performance",
+      "description": "Lightweight and optimized theme that doesn't affect editor speed"
+    }
+  },
+  "colorPalette": {
+    "title": "Color Palette",
+    "subtitle": "A carefully selected palette for maximum readability and comfort",
+    "pureBlack": {
+      "name": "Pure Black",
+      "description": "Main background"
+    },
+    "white62": {
+      "name": "White 62%",
+      "description": "Main text"
+    },
+    "pureWhite": {
+      "name": "Pure White",
+      "description": "Active elements"
+    },
+    "darkGray": {
+      "name": "Dark Gray",
+      "description": "Borders"
+    },
+    "subtleWhite": {
+      "name": "Subtle White",
+      "description": "Indentation guides"
+    }
+  },
+  "preview": {
+    "title": "See It In Action",
+    "subtitle": "Experience the elegance of true black combined with perfectly balanced syntax highlighting",
+    "description": "Pure black background with carefully selected syntax colors",
+    "tryItNow": "Try It Now"
+  },
+  "installation": {
+    "title": "Installation",
+    "subtitle": "Get started in just a few steps",
+    "viaMarketplace": "Via VSCode Marketplace",
+    "step1": "Open Visual Studio Code",
+    "step2": "to open Extensions",
+    "step3": "Search for \"Back to Black\"",
+    "step4": "Click Install",
+    "step5": "and select Back to Black",
+    "installFromMarketplace": "Install from Marketplace"
+  },
+  "history": {
+    "title": "History",
+    "subtitle": "The story behind Back to Black",
+    "paragraph1": "I've always been a big fan of dark themes — Ayu Dark, Dracula, Darcula, Night Owl, and many others. But all of them had one thing that always made me go back to my own customizations: they looked too bright 😅. They're not \"light\" themes, of course, but none of them truly delivered a real #000 with a comfortable contrast for the eyes.",
+    "paragraph2": "The few full-black themes I found had the opposite problem: overly harsh contrast, poor color customization, and any color applied over pure black ended up looking way too intense.",
+    "paragraph3": "So I finally decided to do something about it and thought:",
+    "quote": "\"Many people must feel the same way. I'll take my internal theme tweaks, improve them, and share them online for anyone who wants to download.\"",
+    "paragraph4": "And that's how Back to Black was born. Every time I tried other dark themes, I always ended up going back to black — literally, back to black.",
+    "ps": "P.S.:",
+    "paragraph5": "I later discovered there's a song by Amy Winehouse with the same name 😅. I had no idea when I created the theme and published it on VS Code. I just looked it up online to see if the name showed up anywhere — and that's when I found out. Great song, by the way!"
+  },
+  "footer": {
+    "madeWith": "Made with",
+    "by": "by",
+    "license": "© 2025 Back to Black. MIT License.",
+    "github": "GitHub",
+    "reportBug": "Report Bug",
+    "requestFeature": "Request Feature"
+  },
+  "error": {
+    "title": "Something went wrong",
+    "description": "We're sorry, but something unexpected happened. Please try again.",
+    "tryAgain": "Try Again"
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Page Not Found",
+    "description": "Sorry, we couldn't find the page you're looking for.",
+    "backToHome": "Back to Home"
+  }
+}

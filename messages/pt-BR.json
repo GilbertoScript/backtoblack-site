@@ -1,0 +1,118 @@
+{
+  "header": {
+    "title": "Back to Black",
+    "features": "Recursos",
+    "preview": "Prévia",
+    "history": "História",
+    "installation": "Instalação",
+    "github": "GitHub"
+  },
+  "hero": {
+    "title": "Back to Black",
+    "subtitle": "O único tema verdadeiramente escuro que você estava procurando",
+    "description": "Um tema escuro minimalista e elegante para Visual Studio Code, projetado para desenvolvedores que buscam máximo contraste e foco durante longas sessões de codificação.",
+    "installNow": "Instalar Agora",
+    "viewOnGithub": "Ver no GitHub",
+    "mitLicense": "Licença MIT",
+    "madeWithLove": "Feito com Amor"
+  },
+  "features": {
+    "title": "Recursos",
+    "subtitle": "Detalhes cuidadosamente elaborados para a experiência de codificação perfeita",
+    "trueBlack": {
+      "title": "Preto Verdadeiro",
+      "description": "Fundo #000000 para máximo contraste e economia de bateria em telas OLED"
+    },
+    "reducedEyeStrain": {
+      "title": "Reduz Cansaço Visual",
+      "description": "Cores suaves e balanceadas que não machucam seus olhos durante longas sessões"
+    },
+    "consistentInterface": {
+      "title": "Interface Consistente",
+      "description": "Todos os elementos da UI harmonizados em tons preto e cinza"
+    },
+    "discreteGuides": {
+      "title": "Guias Discretos",
+      "description": "Linhas verticais sutis que não distraem do seu código"
+    },
+    "smartLineNumbers": {
+      "title": "Numeração Inteligente",
+      "description": "Linha ativa destacada para melhor navegação"
+    },
+    "performance": {
+      "title": "Performance",
+      "description": "Tema leve e otimizado que não afeta a velocidade do editor"
+    }
+  },
+  "colorPalette": {
+    "title": "Paleta de Cores",
+    "subtitle": "Uma paleta cuidadosamente selecionada para máxima legibilidade e conforto",
+    "pureBlack": {
+      "name": "Preto Puro",
+      "description": "Fundo principal"
+    },
+    "white62": {
+      "name": "Branco 62%",
+      "description": "Texto principal"
+    },
+    "pureWhite": {
+      "name": "Branco Puro",
+      "description": "Elementos ativos"
+    },
+    "darkGray": {
+      "name": "Cinza Escuro",
+      "description": "Bordas"
+    },
+    "subtleWhite": {
+      "name": "Branco Sutil",
+      "description": "Guias de indentação"
+    }
+  },
+  "preview": {
+    "title": "Veja em Ação",
+    "subtitle": "Experimente a elegância do preto verdadeiro combinado com destaque de sintaxe perfeitamente balanceado",
+    "description": "Fundo preto puro com cores de sintaxe cuidadosamente selecionadas",
+    "tryItNow": "Experimente Agora"
+  },
+  "installation": {
+    "title": "Instalação",
+    "subtitle": "Comece em apenas alguns passos",
+    "viaMarketplace": "Via VSCode Marketplace",
+    "step1": "Abra o Visual Studio Code",
+    "step2": "para abrir Extensões",
+    "step3": "Procure por \"Back to Black\"",
+    "step4": "Clique em Instalar",
+    "step5": "e selecione Back to Black",
+    "installFromMarketplace": "Instalar do Marketplace"
+  },
+  "history": {
+    "title": "História",
+    "subtitle": "A história por trás do Back to Black",
+    "paragraph1": "Sempre fui um grande fã de temas escuros — Ayu Dark, Dracula, Darcula, Night Owl e muitos outros. Mas todos eles tinham uma coisa que sempre me fazia voltar para minhas próprias customizações: pareciam muito claros 😅. Não são temas \"claros\", é claro, mas nenhum deles realmente entregava um #000 real com um contraste confortável para os olhos.",
+    "paragraph2": "Os poucos temas totalmente pretos que encontrei tinham o problema oposto: contraste excessivamente duro, customização de cores ruim, e qualquer cor aplicada sobre preto puro acabava parecendo muito intensa.",
+    "paragraph3": "Então finalmente decidi fazer algo a respeito e pensei:",
+    "quote": "\"Muitas pessoas devem sentir o mesmo. Vou pegar meus ajustes internos do tema, melhorá-los e compartilhá-los online para quem quiser baixar.\"",
+    "paragraph4": "E foi assim que o Back to Black nasceu. Toda vez que experimentava outros temas escuros, sempre acabava voltando ao preto — literalmente, back to black.",
+    "ps": "P.S.:",
+    "paragraph5": "Descobri depois que existe uma música da Amy Winehouse com o mesmo nome 😅. Não tinha ideia quando criei o tema e publiquei no VS Code. Apenas procurei online para ver se o nome aparecia em algum lugar — e foi quando descobri. Ótima música, aliás!"
+  },
+  "footer": {
+    "madeWith": "Feito com",
+    "by": "por",
+    "license": "© 2025 Back to Black. Licença MIT.",
+    "github": "GitHub",
+    "reportBug": "Reportar Bug",
+    "requestFeature": "Solicitar Recurso"
+  },
+  "error": {
+    "title": "Algo deu errado",
+    "description": "Desculpe, mas algo inesperado aconteceu. Por favor, tente novamente.",
+    "tryAgain": "Tentar Novamente"
+  },
+  "notFound": {
+    "title": "404",
+    "subtitle": "Página Não Encontrada",
+    "description": "Desculpe, não conseguimos encontrar a página que você está procurando.",
+    "backToHome": "Voltar para Início"
+  }
+}
