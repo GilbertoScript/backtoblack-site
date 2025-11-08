@@ -14,10 +14,10 @@ export const Hero: FC = () => {
 
       <div className="section-container relative z-10">
         <div className="text-center max-w-4xl mx-auto">
-          <h1 className="text-6xl md:text-7xl font-bold mb-6 text-gradient">
+          <h1 className="text-6xl md:text-7xl font-bold mb-6 text-gradient font-playfair">
             {t('title')}
           </h1>
-          <p className="text-2xl md:text-3xl text-[var(--text-primary)] mb-8 font-serif italic">
+          <p className="text-2xl md:text-3xl text-[var(--text-primary)] mb-8 font-playfair italic">
             {t('subtitle')}
           </p>
           <p className="text-lg text-[var(--text-primary)] mb-12 max-w-2xl mx-auto">

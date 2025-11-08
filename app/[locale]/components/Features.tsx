@@ -26,7 +26,7 @@ export const Features: FC = () => {
     >
       <div className="section-container">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">{t('title')}</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 font-playfair">{t('title')}</h2>
           <p className="text-lg text-[var(--text-primary)] max-w-2xl mx-auto">
             {t('subtitle')}
           </p>
@@ -40,7 +40,7 @@ export const Features: FC = () => {
                 <div className="w-12 h-12 rounded-lg flex items-center justify-center bg-gray-800 mb-4">
                   <Icon className="w-6 h-6 text-[var(--secondary-color)]" />
                 </div>
-                <h3 className="text-xl font-bold mb-3">{t(`${feature.key}.title`)}</h3>
+                <h3 className="text-xl font-bold mb-3 font-playfair">{t(`${feature.key}.title`)}</h3>
                 <p className="text-[var(--text-primary)]">{t(`${feature.key}.description`)}</p>
               </div>
             )

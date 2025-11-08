@@ -8,7 +8,7 @@ export const Installation: FC = () => {
     <section id="installation" className="py-20">
       <div className="section-container max-w-4xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">{t('title')}</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 font-playfair">{t('title')}</h2>
           <p className="text-lg text-[var(--text-primary)]">
             {t('subtitle')}
           </p>
@@ -21,7 +21,7 @@ export const Installation: FC = () => {
                 <span className="text-lg font-bold text-[var(--secondary-color)]">1</span>
               </div>
               <div>
-                <h3 className="text-xl font-bold mb-2">{t('viaMarketplace')}</h3>
+                <h3 className="text-xl font-bold mb-2 font-playfair">{t('viaMarketplace')}</h3>
                 <ol className="text-[var(--text-primary)] space-y-2 list-decimal list-inside">
                   <li>{t('step1')}</li>
                   <li>

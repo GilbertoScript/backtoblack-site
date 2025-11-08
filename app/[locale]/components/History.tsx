@@ -11,7 +11,7 @@ export const History: FC = () => {
     >
       <div className="section-container max-w-4xl">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold mb-4">{t('title')}</h2>
+          <h2 className="text-4xl md:text-5xl font-bold mb-4 font-playfair">{t('title')}</h2>
           <p className="text-lg text-[var(--text-primary)]">
             {t('subtitle')}
           </p>

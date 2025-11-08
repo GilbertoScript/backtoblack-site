@@ -77,6 +77,14 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @layer utilities {
+  .font-playfair {
+    font-family: var(--font-playfair-display), 'Playfair Display', serif;
+  }
+
+  .font-inter {
+    font-family: var(--font-inter), 'Inter', sans-serif;
+  }
+
   .text-gradient {
     background: linear-gradient(to right, #ffffff, #ffffff9f);
     -webkit-background-clip: text;

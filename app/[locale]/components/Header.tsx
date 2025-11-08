@@ -39,7 +39,7 @@ export const Header: FC = () => {
             height={40}
             className="h-10 w-auto"
           />
-          <h1 className="text-xl font-bold">{t('title')}</h1>
+          <h1 className="text-xl font-bold font-playfair">{t('title')}</h1>
         </div>
 
         <nav className="hidden md:flex items-center gap-6">
