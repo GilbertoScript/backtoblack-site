@@ -9,7 +9,8 @@ import "../globals.css";
 const playfairDisplay = Playfair_Display({
   variable: "--font-playfair-display",
   subsets: ["latin"],
-  weight: ["400", "600", "700"],
+  style: ['normal', 'italic'],
+  display: 'swap',
 });
 
 const inter = Inter({
@@ -60,9 +61,9 @@ export default async function LocaleLayout({
   const messages = await getMessages()
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={`${playfairDisplay.variable} ${inter.variable}`}>
       <body
-        className={`${playfairDisplay.variable} ${inter.variable} antialiased`}
+        className="antialiased"
       >
         <NextIntlClientProvider messages={messages}>
           {children}
