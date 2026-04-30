@@ -1,7 +1,7 @@
 'use client'
 
 import { FC, useState } from 'react'
-import { Github, Languages } from 'lucide-react'
+import { GitBranch, Languages } from 'lucide-react'
 import Image from 'next/image'
 import { useTranslations, useLocale } from 'next-intl'
 
@@ -33,7 +33,7 @@ export const Header: FC = () => {
       <div className="section-container py-4 flex items-center justify-between">
         <div className="flex items-center gap-3">
           <Image
-            src="https://app.trickle.so/storage/public/images/usr_1400a9d300000001/7fcd84e4-747b-45df-a000-f40cd29f447c.png"
+            src="https://raw.githubusercontent.com/GilbertoScript/backtoblack/8d2d8da4be0439f3c78de1fb919c664f1ee71f00/logo.png"
             alt="Back to Black Logo"
             width={40}
             height={40}
@@ -115,7 +115,7 @@ export const Header: FC = () => {
             className="btn-primary text-sm"
           >
             <div className="flex items-center gap-2">
-              <Github className="w-4 h-4" />
+              <GitBranch className="w-4 h-4" />
               <span>{t('github')}</span>
             </div>
           </a>

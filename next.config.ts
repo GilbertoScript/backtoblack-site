@@ -8,8 +8,12 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
+        hostname: 'raw.githubusercontent.com',
+        pathname: '/GilbertoScript/backtoblack/**',
+      },
+      {
+        protocol: 'https',
         hostname: 'app.trickle.so',
-        pathname: '/storage/public/images/**',
       },
     ],
   },

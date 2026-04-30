@@ -14,12 +14,11 @@ export const Preview: FC = () => {
             {t('subtitle')}
           </p>
         </div>
-
         <div className="relative max-w-5xl mx-auto">
           <div className="absolute -inset-4 bg-gradient-to-r from-white to-gray-400 rounded-2xl blur-2xl opacity-10"></div>
           <div className="relative rounded-2xl overflow-hidden border border-[var(--border-color)]">
             <Image
-              src="https://app.trickle.so/storage/public/images/usr_1400a9d300000001/c9564622-5c8d-4a22-9122-5b711a16bb85.png"
+              src="/example.png"
               alt="Back to Black Theme Preview"
               width={1200}
               height={800}
@@ -27,7 +26,6 @@ export const Preview: FC = () => {
             />
           </div>
         </div>
-
         <div className="mt-12 text-center">
           <p className="text-[var(--text-primary)] mb-6">
             {t('description')}

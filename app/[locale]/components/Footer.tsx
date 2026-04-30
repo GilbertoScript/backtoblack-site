@@ -1,5 +1,5 @@
 import { FC } from 'react'
-import { Github, Bug, Lightbulb } from 'lucide-react'
+import { GitBranch, Bug, Lightbulb } from 'lucide-react'
 import { useTranslations } from 'next-intl'
 
 export const Footer: FC = () => {
@@ -34,7 +34,7 @@ export const Footer: FC = () => {
               className="text-[var(--text-primary)] hover:text-[var(--text-highlight)] transition"
             >
               <div className="flex items-center gap-2">
-                <Github className="w-5 h-5" />
+                <GitBranch className="w-5 h-5" />
                 <span>{t('github')}</span>
               </div>
             </a>
