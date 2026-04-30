@@ -1,12 +1,30 @@
-# Back to Black - Official Site
+<p align="center">
+  <img src="https://raw.githubusercontent.com/GilbertoScript/backtoblack/8d2d8da4be0439f3c78de1fb919c664f1ee71f00/logo.png" alt="Back to Black Logo" width="120"/>
+</p>
+
+<h1 align="center">Back to Black — Official Site</h1>
 
 <p align="center">
   <em>The only true dark theme you were looking for</em>
 </p>
 
-Official marketing site for the **Back to Black** Visual Studio Code theme, built with Next.js 16, React 19, and Tailwind CSS 4.
+<p align="center">
+  <a href="https://backtoblack.vercel.app/">
+    <img src="https://img.shields.io/badge/website-backtoblack.vercel.app-black?style=flat-square" alt="Website">
+  </a>
+  <a href="https://marketplace.visualstudio.com/items?itemName=backtoblack.backtoblack">
+    <img src="https://img.shields.io/badge/VS%20Code-Marketplace-black?style=flat-square" alt="Marketplace">
+  </a>
+  <a href="https://github.com/GilbertoScript/backtoblack/blob/main/LICENSE">
+    <img src="https://img.shields.io/badge/license-MIT-black?style=flat-square" alt="License">
+  </a>
+</p>
 
-## About
+<br />
+
+## 📖 About
+
+Official marketing site for the **Back to Black** Visual Studio Code theme, built with Next.js 16, React 19, and Tailwind CSS 4.
 
 A single-page site showcasing the Back to Black VSCode theme, featuring:
 
@@ -19,7 +37,9 @@ A single-page site showcasing the Back to Black VSCode theme, featuring:
 
 The site supports two languages (English and Brazilian Portuguese) via `next-intl`.
 
-## Tech Stack
+<br />
+
+## 🛠️ Tech Stack
 
 - **Next.js 16** — App Router, i18n routing
 - **React 19.2** — UI library
@@ -29,7 +49,9 @@ The site supports two languages (English and Brazilian Portuguese) via `next-int
 - **Lucide React** — icons
 - **Next Font** — Playfair Display + Inter
 
-## Getting Started
+<br />
+
+## 🚀 Getting Started
 
 ```bash
 npm install
@@ -39,7 +61,9 @@ npm start         # production server
 npm run lint      # lint
 ```
 
-## Project Structure
+<br />
+
+## 🏗️ Project Structure
 
 ```
 backtoblack-site/
@@ -64,7 +88,9 @@ backtoblack-site/
 └── next.config.ts                # Next.js config
 ```
 
-## Design System
+<br />
+
+## 🎨 Design System
 
 ### Colors
 
@@ -89,19 +115,27 @@ backtoblack-site/
 - `.text-gradient` — white gradient text
 - `.drop-cap` — first-letter drop cap
 
-## Internationalization
+<br />
+
+## 🌐 Internationalization
 
 Routes are prefixed by locale: `/` for English, `/pt-BR` for Brazilian Portuguese. The language switcher in the header triggers a full page reload to the new locale path.
 
-## Deploy
+<br />
+
+## ☁️ Deploy
 
 Optimized for **Vercel**. Also works on Netlify, AWS Amplify, or any Node.js host.
 
-## Links
+<br />
+
+## 🔗 Links
 
 - [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=backtoblack.backtoblack)
 - [GitHub — Theme Source](https://github.com/GilbertoScript/backtoblack)
 
-## License
+<br />
+
+## 📄 License
 
 MIT © 2025 Back to Black — made with 🖤 by [GilbertoScript](https://github.com/GilbertoScript)
