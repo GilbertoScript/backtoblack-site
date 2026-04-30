@@ -1,129 +1,107 @@
-# Back to Black - Site Oficial (Next.js)
+# Back to Black - Official Site
 
 <p align="center">
   <em>The only true dark theme you were looking for</em>
 </p>
 
-Este é o site oficial do tema **Back to Black** para Visual Studio Code, desenvolvido com Next.js 16, React 19 e Tailwind CSS 4.
+Official marketing site for the **Back to Black** Visual Studio Code theme, built with Next.js 16, React 19, and Tailwind CSS 4.
 
-## 🚀 Sobre o Projeto
+## About
 
-Site de marketing e documentação para o tema Back to Black VSCode, apresentando:
-- Características do tema
-- Preview visual
-- Instruções de instalação
-- História do projeto
-- Paleta de cores
+A single-page site showcasing the Back to Black VSCode theme, featuring:
 
-## 🛠️ Stack Tecnológica
+- **Hero** — headline, CTA buttons linking to the Marketplace and GitHub
+- **Features** — six theme highlights (true black, reduced eye strain, consistent interface, discrete guides, smart line numbers, performance)
+- **Preview** — visual demonstration of the theme in action
+- **Color Palette** — five theme colors with hex values and descriptions
+- **History** — the story behind the project
+- **Installation** — step-by-step guide to install from the VS Code Marketplace
 
-- **Next.js 16** - Framework React com App Router
-- **React 19.2.0** - Biblioteca UI
-- **TypeScript** - Tipagem estática
-- **Tailwind CSS 4** - Framework CSS utility-first
-- **Lucide React** - Ícones modernos
-- **Next Font** - Otimização de fontes (Playfair Display + Inter)
+The site supports two languages (English and Brazilian Portuguese) via `next-intl`.
 
-## 📦 Instalação
+## Tech Stack
+
+- **Next.js 16** — App Router, i18n routing
+- **React 19.2** — UI library
+- **TypeScript 6** — static typing
+- **Tailwind CSS 4** — utility-first styling
+- **next-intl 4** — internationalization (en / pt-BR)
+- **Lucide React** — icons
+- **Next Font** — Playfair Display + Inter
+
+## Getting Started
 
 ```bash
-# Instalar dependências
 npm install
-
-# Executar em modo desenvolvimento
-npm run dev
-
-# Build para produção
-npm run build
-
-# Iniciar servidor de produção
-npm start
-
-# Executar linter
-npm run lint
+npm run dev       # development server
+npm run build     # production build
+npm start         # production server
+npm run lint      # lint
 ```
 
-## 🏗️ Estrutura do Projeto
+## Project Structure
 
 ```
 backtoblack-site/
 ├── app/
-│   ├── components/         # Componentes React
-│   │   ├── Header.tsx     # Cabeçalho com navegação
-│   │   ├── Hero.tsx       # Seção hero principal
-│   │   ├── Features.tsx   # Grid de características
-│   │   ├── Preview.tsx    # Preview do tema
-│   │   ├── ColorPalette.tsx   # Paleta de cores
-│   │   ├── History.tsx    # História do projeto
-│   │   ├── Installation.tsx   # Instruções de instalação
-│   │   └── Footer.tsx     # Rodapé
-│   ├── error.tsx          # Página de erro
-│   ├── not-found.tsx      # Página 404
-│   ├── layout.tsx         # Layout raiz
-│   ├── page.tsx           # Página inicial
-│   └── globals.css        # Estilos globais
-├── public/                # Assets estáticos
-└── next.config.ts         # Configuração do Next.js
+│   ├── [locale]/
+│   │   ├── components/
+│   │   │   ├── Header.tsx        # Fixed nav with language switcher
+│   │   │   ├── Hero.tsx          # Hero section with CTA
+│   │   │   ├── Features.tsx      # 6-card feature grid
+│   │   │   ├── Preview.tsx       # Theme preview
+│   │   │   ├── ColorPalette.tsx  # Color swatches
+│   │   │   ├── History.tsx       # Project story
+│   │   │   ├── Installation.tsx  # Install guide
+│   │   │   └── Footer.tsx        # Footer
+│   │   ├── layout.tsx            # Locale layout with NextIntlClientProvider
+│   │   └── page.tsx              # Page entry point
+│   └── globals.css               # Global styles
+├── messages/
+│   ├── en.json                   # English strings
+│   └── pt-BR.json                # Brazilian Portuguese strings
+├── i18n.ts                       # next-intl config (locales: en, pt-BR)
+└── next.config.ts                # Next.js config
 ```
 
-## 🎨 Design System
+## Design System
 
-### Cores do Tema
+### Colors
 
-```css
---primary-color: #000000      /* Fundo preto puro */
---secondary-color: #ffffff    /* Branco */
---text-primary: #ffffff9f     /* Texto principal (62% opacity) */
---text-highlight: #ffffff     /* Texto destacado */
---border-color: #22222270     /* Bordas (44% opacity) */
---accent-subtle: #ffffff15    /* Guias sutis (8% opacity) */
-```
+| Token | Hex | Usage |
+|---|---|---|
+| Pure Black | `#000000` | Background |
+| White 62% | `#ffffff9f` | Body text |
+| Pure White | `#ffffff` | Highlighted text |
+| Dark Gray | `#22222270` | Borders |
+| Subtle White | `#ffffff15` | Guide lines |
 
-### Tipografia
+### Typography
 
-- **Headings**: Playfair Display (400, 600, 700)
-- **Body**: Inter (300, 400, 500, 600)
+- **Headings** — Playfair Display (serif)
+- **Body** — Inter (300, 400, 500, 600)
 
-### Componentes Customizados
+### CSS Utilities
 
-- `.btn-primary` - Botão principal
-- `.feature-card` - Card de feature com hover
-- `.section-container` - Container de seção (max-width: 1200px)
-- `.text-gradient` - Texto com gradiente
-- `.drop-cap` - Drop cap para primeira letra
+- `.btn-primary` — primary CTA button
+- `.feature-card` — card with hover effect
+- `.section-container` — centered layout (max-width 1200px)
+- `.text-gradient` — white gradient text
+- `.drop-cap` — first-letter drop cap
 
-## 🌐 Deploy
+## Internationalization
 
-O site pode ser facilmente deployado em:
-- **Vercel** (recomendado para Next.js)
-- **Netlify**
-- **AWS Amplify**
-- Qualquer plataforma que suporte Next.js
+Routes are prefixed by locale: `/` for English, `/pt-BR` for Brazilian Portuguese. The language switcher in the header triggers a full page reload to the new locale path.
 
-```bash
-# Build para produção
-npm run build
+## Deploy
 
-# O Next.js gera uma pasta .next/ com os arquivos otimizados
-```
+Optimized for **Vercel**. Also works on Netlify, AWS Amplify, or any Node.js host.
 
-## 📱 Responsividade
+## Links
 
-O site é totalmente responsivo com breakpoints:
-- Mobile: < 768px
-- Tablet: 768px - 1024px
-- Desktop: > 1024px
+- [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=backtoblack.backtoblack)
+- [GitHub — Theme Source](https://github.com/GilbertoScript/backtoblack)
 
-## 🔗 Links
+## License
 
-- [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=backtoblack.backtoblack)
-- [GitHub](https://github.com/GilbertoScript/backtoblack)
-- [Issues](https://github.com/GilbertoScript/backtoblack/issues)
-
-## 📄 Licença
-
-MIT License - © 2025 Back to Black
-
----
-
-**Made with 🖤 by [GilbertoScript](https://github.com/GilbertoScript)**
+MIT © 2025 Back to Black — made with 🖤 by [GilbertoScript](https://github.com/GilbertoScript)
