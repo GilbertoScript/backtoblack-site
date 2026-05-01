@@ -1,11 +1,11 @@
-import { Header } from './components/Header'
-import { Hero } from './components/Hero'
-import { Features } from './components/Features'
-import { Preview } from './components/Preview'
-import { ColorPalette } from './components/ColorPalette'
-import { History } from './components/History'
-import { Installation } from './components/Installation'
-import { Footer } from './components/Footer'
+import { Header } from './components/header'
+import { Hero } from './components/hero'
+import { Features } from './components/features'
+import { Preview } from './components/preview'
+import { ColorPalette } from './components/color-palette'
+import { History } from './components/history'
+import { Installation } from './components/installation'
+import { Footer } from './components/footer'
 
 export default function Home() {
   return (
